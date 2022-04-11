@@ -1,5 +1,6 @@
-import type { NextPage } from "next";
+import React from "react";
 import Head from "next/head";
+import { styled } from "linaria/react";
 
 export default function Home() {
   return (
@@ -9,10 +10,16 @@ export default function Home() {
         <meta name="description" content="Tasty breathtaking rolls" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <header>
+
+      <Header>
         <h1>Bulo4ki</h1>
-      </header>
+      </Header>
       <main></main>
     </div>
   );
 }
+
+const Header = styled.header`
+  font-size: 80px;
+  color: red;
+`;
