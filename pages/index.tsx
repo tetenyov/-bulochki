@@ -20,6 +20,6 @@ export default function Home() {
 }
 
 const Header = styled.header`
-  font-size: 80px;
+  font-size: 40px;
   color: red;
 `;
